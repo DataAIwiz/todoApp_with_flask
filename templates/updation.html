@@ -1,0 +1,27 @@
+{% include "index.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My-App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ url_for('static', filename='style.css')}}" />
+
+
+</head>
+
+<div id="update">
+<form method="post" action="/todo/v1_v01/tasks/update">
+
+    {{form.task.label}}<br /> {{form.task(id='old Title')}}<br />
+    {{form.task2.label}}<br /> {{form.task2(id='new Title')}}<br />
+    {{form.description2.label}}<br /> {{form.description2(id='Newdescription')}}
+    <br />
+
+    {{form.submit}}
+</form>
+</div>
+
+</html>

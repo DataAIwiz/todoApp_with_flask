@@ -1,0 +1,101 @@
+* {
+    padding:0px;
+    margin:0px;
+    }
+#taski{
+    color:green;
+    background-color: powderblue;
+    font-size:15px;
+    font-family:arial;
+    margin-top:10px;
+    width:500px;
+    height:80%;
+    padding:10px;
+    margin-left:20px;
+
+}
+#taski ul li{
+	list-style-type: initial;
+}
+form #task{
+    width:200px;
+    color:blue;
+    background-color:yellow;
+    padding-left:10px;
+    margin-top:20px;
+    margin-left:20px;
+    height:20px;
+
+
+    }
+form #submit{
+     margin-top:10px;
+     width:100px;
+     color:blue;
+     font-size:15px;
+
+
+}
+
+#form form{
+    float:right;
+    color:blue;
+    margin-right:50px;
+
+}
+#update form{
+    margin-left:20px;
+    color:blue
+
+}
+#delete form{
+    margin-left:20px;
+
+    }
+#update form #Newdescription{
+    width:300px;
+
+    }
+#heading h1{
+    margin-left:50px;
+}
+form #Task{
+
+    color:black:
+    margin-left:40px;
+    width:200px;
+    }
+#addition form{
+
+    margin-left:20px;
+    margin-top:50px;
+    color:blue;
+
+}
+
+#addition #description{
+
+    width:300px;
+
+}
+#login form{
+    margin-left:20px;
+    color:blue;
+    float:left;
+    }
+
+#logout form{
+    margin-left:20px;
+    float:left;
+    color:blue;
+
+}
+#incomplete{
+    margin:10px;
+    }
+#complete{
+    margin:10px;
+}
+#findall{
+    margin:10px;
+}
