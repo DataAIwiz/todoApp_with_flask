@@ -155,7 +155,7 @@ def deletion():
     if request.method == 'POST':
         if mongo.db.todo.find():
             task = request.form['task']
-            mongo.db.todo.delete_one({'Task': task})
+            mongo.db.todo.remove({'Task': task})
             return "task deleted successfully"
         else:
             return 'no data found'
